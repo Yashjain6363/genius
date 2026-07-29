@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Child Genius Academy Vijaypur | Abacus | Art | Skill Development</title>
+  <meta name="description" content="Best child development academy providing abacus, handwriting, art, music, yoga and creativity programs. VidhiDiya's Child Genius Academy Vijaypur.">
+  <meta name="theme-color" content="#FFD54F">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Loader -->
+  <div id="loader">
+    <div class="spinner"></div>
+    <h2>VidhiDiya's</h2>
+    <p>Child Genius Academy</p>
+    <div class="loader-track"><div class="loader-bar"></div></div>
+    <p style="color:rgba(255,255,255,.4);font-size:.75rem;margin-top:1rem;text-transform:none;letter-spacing:0">Opening the magical universe...</p>
+  </div>
+
+  <div class="scroll-progress"></div>
+
+  <!-- Navigation -->
+  <header class="nav">
+    <div class="nav-inner glass">
+      <a href="#" class="logo">
+        <span style="font-size:1.75rem">🎓</span>
+        <div><strong>VidhiDiya's</strong><small>Child Genius Academy</small></div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn btn-primary btn-magnetic" style="display:none" id="nav-cta-desktop">✨ Book Counselling</a>
+      <button class="menu-btn" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+    <nav class="mobile-nav glass">
+      <a href="#about">About</a>
+      <a href="#courses">Courses</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+      <a href="#contact" class="btn btn-primary" style="margin-top:.5rem;text-align:center">✨ Book Counselling</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img id="hero-img" src="" alt="Welcome to VidhiDiya's Child Genius Academy" />
+    </div>
+
+    <div class="door door-left"><div class="door-panel"></div></div>
+    <div class="door door-right"><div class="door-panel"></div></div>
+
+    <canvas id="hero-canvas"></canvas>
+    <div id="floating-photos"></div>
+
+    <div class="hero-content">
+      <div class="hero-badge glass">✨ Vijaypur's Premium Child Development Academy</div>
+      <h1>
+        <span class="word headline-word">Unlock</span>
+        <span class="word headline-word">The</span>
+        <span class="word headline-word accent">Genius</span>
+        <span class="word headline-word">Inside</span>
+        <span class="word headline-word">Every</span>
+        <span class="word headline-word accent">Child</span>
+      </h1>
+      <p class="hero-sub">Building intelligent, confident and creative minds through innovative learning programs.</p>
+      <div class="hero-btns">
+        <a href="#contact" class="btn btn-primary btn-magnetic">✨ Book Free Counselling</a>
+        <a href="#courses" class="btn btn-secondary btn-magnetic">🚀 Explore Learning Universe</a>
+      </div>
+    </div>
+    <div class="scroll-hint">Scroll to explore<div class="mouse"></div></div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section reveal" id="about">
+    <div class="section-tag glass" style="color:var(--purple)">Our Story</div>
+    <h2 class="section-title">Where Curiosity Becomes <span class="gradient-text">Genius</span></h2>
+    <p class="section-sub">At VidhiDiya's, we believe every child carries unlimited potential.</p>
+
+    <div class="about-grid">
+      <div class="about-img">
+        <img id="about-img" src="" alt="Abacus learning classroom" />
+        <div class="about-badge glass"><strong class="gradient-text">500+</strong><small style="color:#64748b">Happy Students</small></div>
+      </div>
+      <div>
+        <p style="color:#64748b;margin-bottom:1rem;line-height:1.8">Step through our doors into a world where learning feels like magic. From abacus mental arithmetic to art, music, and yoga — every program is designed to unlock your child's unique genius.</p>
+        <p style="color:#64748b;line-height:1.8">Our Vijaypur academy combines traditional excellence with futuristic teaching methods, creating confident, creative, and intelligent young minds.</p>
+      </div>
+    </div>
+
+    <div class="timeline">
+      <div class="tl-item reveal">
+        <div class="tl-num" style="background:linear-gradient(135deg,var(--sky),#0288d1)">1</div>
+        <h3>Discover</h3><p style="color:#64748b;font-size:.9rem">Curiosity sparks the journey</p>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-num" style="background:linear-gradient(135deg,var(--gold),#ffb300)">2</div>
+        <h3>Learn</h3><p style="color:#64748b;font-size:.9rem">Skills take root and grow</p>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-num" style="background:linear-gradient(135deg,var(--red),#ff1744)">3</div>
+        <h3>Create</h3><p style="color:#64748b;font-size:.9rem">Imagination becomes reality</p>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-num" style="background:linear-gradient(135deg,var(--purple),#7b1fa2)">4</div>
+        <h3>Achieve</h3><p style="color:#64748b;font-size:.9rem">Genius shines for all to see</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- COURSES -->
+  <section class="section reveal" id="courses">
+    <div class="section-tag glass" style="color:var(--sky)">🚀 Learning Universe</div>
+    <h2 class="section-title">Explore Skill <span class="gradient-text">Islands</span></h2>
+    <p class="section-sub">Each program is a unique world waiting to be discovered.</p>
+    <div class="course-grid" id="course-grid"></div>
+  </section>
+
+  <!-- DEVELOPMENT -->
+  <section class="section reveal">
+    <div class="dev-layout">
+      <div>
+        <div class="section-tag glass" style="color:var(--green)">Holistic Growth</div>
+        <h2 class="section-title" style="text-align:left">Nurturing <span class="gradient-text">Whole-Brain</span> Development</h2>
+        <div class="benefits-grid">
+          <div class="benefit glass"><span>🧠</span><div><strong>Better Memory</strong><p style="color:#64748b;font-size:.85rem">Enhanced recall through mental exercises</p></div></div>
+          <div class="benefit glass"><span>🎯</span><div><strong>Better Focus</strong><p style="color:#64748b;font-size:.85rem">Deep concentration for excellence</p></div></div>
+          <div class="benefit glass"><span>🎨</span><div><strong>Creativity</strong><p style="color:#64748b;font-size:.85rem">Unleashed imagination through art</p></div></div>
+          <div class="benefit glass"><span>💪</span><div><strong>Confidence</strong><p style="color:#64748b;font-size:.85rem">Built through achievement</p></div></div>
+          <div class="benefit glass"><span>🌟</span><div><strong>Personality Development</strong><p style="color:#64748b;font-size:.85rem">Well-rounded character growth</p></div></div>
+        </div>
+      </div>
+      <div class="brain-wrap">🧠</div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="section reveal" id="gallery">
+    <div class="section-tag glass" style="color:var(--red)">📸 Memory Wall</div>
+    <h2 class="section-title">Moments of <span class="gradient-text">Genius</span></h2>
+    <p class="section-sub">Real smiles. Real achievements. Click any photo to explore.</p>
+    <div class="gallery-grid" id="gallery-grid"></div>
+  </section>
+
+  <!-- TRUST -->
+  <section class="section reveal">
+    <div class="section-tag glass" style="color:var(--gold)">💬 Parent Trust</div>
+    <h2 class="section-title">Loved by <span class="gradient-text">Families</span></h2>
+    <div class="trust-grid">
+      <div class="trust-img">
+        <img id="trust-img" src="" alt="Students with medals" />
+        <div class="overlay"><strong style="font-size:1.25rem">Award-Winning Students</strong><p style="font-size:.85rem;opacity:.9">Medals, certificates & national recognition</p></div>
+      </div>
+      <div>
+        <div class="review glass">
+          <div class="stars">★★★★★</div>
+          <blockquote>"My daughter's mental math speed improved dramatically. The abacus program is truly transformative."</blockquote>
+          <strong>Priya S.</strong> <span style="color:#64748b;font-size:.85rem">— Parent</span>
+        </div>
+        <div class="review glass">
+          <div class="stars">★★★★★</div>
+          <blockquote>"The handwriting and art classes gave my son confidence he never had before. Highly recommended!"</blockquote>
+          <strong>Rajesh K.</strong> <span style="color:#64748b;font-size:.85rem">— Parent</span>
+        </div>
+      </div>
+    </div>
+    <div class="stats">
+      <div class="stat glass"><strong class="gradient-text">500+</strong><span style="color:#64748b;font-size:.8rem">Students Trained</span></div>
+      <div class="stat glass"><strong class="gradient-text">14+</strong><span style="color:#64748b;font-size:.8rem">Programs</span></div>
+      <div class="stat glass"><strong class="gradient-text">100+</strong><span style="color:#64748b;font-size:.8rem">Awards Won</span></div>
+      <div class="stat glass"><strong class="gradient-text">10+</strong><span style="color:#64748b;font-size:.8rem">Years Excellence</span></div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section reveal" id="contact">
+    <div class="section-tag glass" style="color:var(--sky)">📞 Get In Touch</div>
+    <h2 class="section-title">Begin Your Child's <span class="gradient-text">Journey</span></h2>
+    <div class="contact-card glass">
+      <div class="contact-grid">
+        <div>
+          <div style="display:flex;align-items:center;gap:.75rem;margin-bottom:1.5rem">
+            <span style="font-size:2rem">🎓</span>
+            <div><strong style="font-family:Outfit;font-size:1.1rem">VidhiDiya's Child Genius Academy Vijaypur</strong><p style="color:#64748b;font-size:.85rem">Premium Child Development</p></div>
+          </div>
+          <p style="margin-bottom:.75rem">📍 Vijaypur, India</p>
+          <p style="margin-bottom:.75rem">📱 <a href="tel:+919035217929" style="color:inherit">+91 9035217929</a></p>
+          <p>📱 <a href="tel:+919243217929" style="color:inherit">+91 9243217929</a></p>
+        </div>
+        <div class="contact-btns">
+          <a href="#" class="btn btn-whatsapp btn-magnetic">💬 WhatsApp Now</a>
+          <a href="tel:+919035217929" class="btn btn-primary btn-magnetic">✨ Book Free Counselling</a>
+          <p style="text-align:center;font-size:.75rem;color:#94a3b8">Free counselling • No obligation</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <strong>VidhiDiya's Child Genius Academy Vijaypur</strong>
+    © 2026 All rights reserved. Unlock the genius inside every child.
+  </footer>
+
+  <!-- Lightbox -->
+  <div id="lightbox">
+    <div class="lb-inner">
+      <button class="lb-close">✕ Close</button>
+      <img src="" alt="">
+      <h3></h3>
+      <p></p>
+    </div>
+  </div>
+
+  <!-- Set image sources from config -->
+  <script src="js/config.js"></script>
+  <script>
+    document.getElementById('hero-img').src = IMAGES.heroPortal;
+    document.getElementById('about-img').src = IMAGES.classroomAbacus;
+    document.getElementById('trust-img').src = IMAGES.medalsAwards;
+    if (window.matchMedia('(min-width:768px)').matches) {
+      const cta = document.getElementById('nav-cta-desktop');
+      if (cta) cta.style.display = 'inline-flex';
+    }
+  </script>
+  <!-- Three.js from CDN — no npm -->
+  <script src="https://cdn.jsdelivr.net/npm/three@0.171.0/build/three.min.js"></script>
+  <script src="js/hero3d.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
