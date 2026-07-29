@@ -118,10 +118,10 @@ export default function ParentTrust() {
           className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-16"
         >
           {[
-            { value: '500+', label: 'Students Trained' },
+            { value: '1000+', label: 'Students Trained' },
             { value: '14+', label: 'Programs Offered' },
             { value: '100+', label: 'Awards Won' },
-            { value: '10+', label: 'Years Excellence' },
+            { value: '20+', label: 'Years Excellence' },
           ].map((stat) => (
             <div key={stat.label} className="glass rounded-2xl p-6 text-center">
               <p className="font-display text-2xl md:text-3xl font-bold gradient-text">

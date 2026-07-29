@@ -52,7 +52,7 @@ export default function AboutSection() {
               <div className="absolute inset-0 bg-gradient-to-t from-purple/30 to-transparent" />
             </div>
             <div className="absolute -bottom-4 -right-4 glass rounded-2xl p-4 shadow-xl">
-              <p className="text-2xl font-bold gradient-text">500+</p>
+              <p className="text-2xl font-bold gradient-text">1000+</p>
               <p className="text-xs text-gray-500">Happy Students</p>
             </div>
           </motion.div>
