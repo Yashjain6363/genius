@@ -105,8 +105,8 @@ export default function ParentTrust() {
         </div>
 
         <div className="grid md:grid-cols-3 gap-6">
-          {TESTIMONIALS.map((t, i) => (
-            <SpeechBubble key={t.author} {...t} index={i} />
+          {TESTIMONIALS.slice(2).map((t, i) => (
+            <SpeechBubble key={t.author} {...t} index={i + 2} />
           ))}
         </div>
 

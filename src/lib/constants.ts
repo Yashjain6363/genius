@@ -192,4 +192,14 @@ export const TESTIMONIALS = [
     author: 'Anita M.',
     role: 'Parent',
   },
+  {
+    quote: "The DMIT fingerprint test gave us clear scientific insights into our son's natural strengths and learning style.",
+    author: 'Suresh P.',
+    role: 'Parent',
+  },
+  {
+    quote: "Super Sensory Development & Yoga have remarkably enhanced my daughter's focus and memory retention.",
+    author: 'Deepa R.',
+    role: 'Parent',
+  },
 ] as const;
